@@ -1,0 +1,54 @@
+{
+  "compileOnSave": true,
+  "compilerOptions": {
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "ES2015.Symbol",
+      "scripthost",
+      "es2017",
+      "ESNext.Array",
+      "ES2015.Promise"
+    ],
+    "target": "es5",
+    "module": "es6",
+    "moduleResolution": "node",
+    "declaration": false,
+    "noImplicitAny": false,
+    "jsx": "react",
+    "sourceMap": true,
+    "noLib": false,
+    "suppressImplicitAnyIndexErrors": true,
+    "baseUrl": ".",
+    "allowJs": true,
+    "outDir": "./dist/",
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "strict": true,
+    "resolveJsonModule": true,
+    "noEmitOnError": true,
+    "forceConsistentCasingInFileNames": true,
+    "noEmit": false,
+    "paths": {
+      "@src/*": [
+        "./src/*"
+      ],
+      "@components/*": [
+        "./src/components/*"
+      ],
+      "@containers/*": [
+        "./src/containers/*"
+      ],
+      "@utils/*": [
+        "./src/Util/*"
+      ],
+      "@BGC.Cambio.Web/*": [
+        "../BGC.Cambio.Web/*"
+      ]
+    }
+  },
+  "include": [
+    "src"
+  ]
+}
