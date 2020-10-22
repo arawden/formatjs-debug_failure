@@ -1,4 +1,4 @@
-# FormatJS - `Debug Failure. Test expression`
+# FormatJS - `Debug Failure. False expression`
 
 With the following code, running `npm run test` yields the error in the title of the README.
 
